@@ -27,10 +27,16 @@ sudo apt install ansible
 
 3. Passwordless SSH access from UAV controller to UAV:
 
+To manage the UAV using ansible, you should connect using SSH without introducing the password manually:
 [Passwordless SSH access](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md)
 
 4. Test the connectivity between the UAV controller and the UAV (from UAV controller):
 
 ```bash
 ansible all -m ping -u uavuser
+```
+
+5. Run the ansible playbook (examples in /)
+```bash
+ansible-playbook -vvv .yml
 ```
