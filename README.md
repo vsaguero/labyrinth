@@ -13,19 +13,24 @@ Install the pyparrot in the UAV following the documentation:
 
 ## How to install ansible in the UAV controller
 
-Installation:
-''' bash
+1. Installation:
+``` bash
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible
-'''
+```
 
-Include the IP of the UAV you want to manage using ansible in:
-
+2. Include the IP of the UAV you want to manage using ansible in:
+```bash
 /etc/ansible/hosts
+```
 
-Passwordless SSH access from UAV controller to UAV:
+3. Passwordless SSH access from UAV controller to UAV:
 
 [Passwordless SSH access](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md)
 
+4. Test the connectivity between the UAV controller and the UAV (from UAV controller):
 
+```bash
+ansible all -m ping -u uavuser
+```
