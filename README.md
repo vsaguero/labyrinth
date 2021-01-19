@@ -38,5 +38,5 @@ ansible all -m ping -u uavuser
 
 5. Run the ansible playbook (examples in /labyrinth/uavcontroller/ansibleplaybooks/)
 ```bash
-ansible-playbook -vvv .yml
+ansible-playbook -vvv despegueaterrizaje.yml
 ```
