@@ -2,8 +2,26 @@
 
 This repository contains essential information to configure a testbed developed in the context of the H2020 Labyrinth European project.
 
-UAV -> Raspberry Pi 4
-UAV controller -> miniITX
+UAV: 
+
+Required hardware:
+
+* Raspberry Pi 4
+* [Raspberry Pi 4G/LTE Cellular Modem Kit](https://sixfab.com/product/raspberry-pi-4g-lte-modem-kit/)
+
+Required OS:
+
+* Ubuntu server 20.04 LTS
+
+UAV controller:
+
+Required harware:
+
+* Mini ITX
+
+Requierd OS:
+
+* Ubuntu server 20.04 LTS
 
 ## How to install pyparrot in the UAV
 
