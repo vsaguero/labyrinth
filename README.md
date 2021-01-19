@@ -13,7 +13,7 @@ Required OS:
 Required harware:
 * Mini ITX
 
-Requierd OS:
+Required OS:
 * Ubuntu server 20.04 LTS
 
 ## How to install pyparrot in the UAV
