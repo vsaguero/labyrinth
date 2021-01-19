@@ -1,0 +1,10 @@
+---
+- name: Playbook Ansible para ejecutar scripts
+  hosts: 10.17.17.6
+  remote_user: ubuntu
+
+  tasks:
+   - name: Ejecutar script en la RPi
+     script: /home/gcs/flightcontrol/bebopDespegueAterrizaje.py
+     args:
+       executable: /usr/bin/python3
