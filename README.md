@@ -36,7 +36,7 @@ To manage the UAV using ansible, you should connect using SSH without introducin
 ansible all -m ping -u uavuser
 ```
 
-5. Run the ansible playbook (examples in /)
+5. Run the ansible playbook (examples in /labyrinth/uavcontroller/ansibleplaybooks/)
 ```bash
 ansible-playbook -vvv .yml
 ```
