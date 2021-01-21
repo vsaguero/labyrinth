@@ -11,7 +11,7 @@ networks:
       dhcp4: true
     ens4:
       addresses:
-        - 10.0.0.11						\modify with the corresponding IP of your node
+        - 10.0.0.11/24						\modify with the corresponding IP of your node
       routes:
           - to: 10.0.0.0/24
             via: 10.0.0.1
